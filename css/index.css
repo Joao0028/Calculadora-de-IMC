@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family= Open +Sans & display=swap');
+
+*{
+	box-sizing: border-box;
+ }
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	background-color: #0e0a0f;
+	color: #FFF;
+}
+
+header{
+	background-color: #0a070a;
+	height: 4em;
+	color: #FFF;
+	margin-bottom: 1em;
+}
+
+header h1{
+	font-size: 2em;
+	display:inline-block;
+	vertical-align:	middle;
+	margin: 0 22em 0 0;
+}
+header h2{
+	font-size: 2em;
+	display:inline-block;
+	vertical-align:	middle;
+}
+
+header .container:before{
+	content: '';
+	display:inline-block;
+	height: 100%;
+	vertical-align:	middle;
+}
+
+.container{
+	width: 60%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+section{
+	margin: 2em 0;
+	overflow: hidden;
+}
+
+section h2{
+	font-size: 3em;
+	display: block;
+	padding-bottom: .5em;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: .5em;
+	padding-top: 0.4em;
+    padding-bottom: 0.5em;
+}
+
+table{
+	width: 100%;
+	margin-bottom : .5em;
+    table-layout: fixed;
+
+}
+
+td, th {
+	padding: .7em;
+	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+th{
+	font-weight: bold;
+	background-color: #130d14;
+}
+
+label{
+	color: #555;
+	display: block;
+	margin-bottom: .2em;
+}
+
+.campo{
+	margin: 0;
+	padding-bottom: 1em;
+	width: 170%;
+    border-radius: 8px;
+	border: 1px solid #ccc;
+	padding: .7em;
+}
+
+.campo-medio{
+	display: inline-block;
+	padding-right: .5em;
+}
+
+.grupo{
+	width: 32%;
+	display: inline-block;
+	padding: 10px 0px;
+}
+
+button{
+	padding: .5em 2em;
+	border: 0;
+	border-bottom: 3px solid;
+	font-size: 1.2em;
+	cursor: pointer;
+	margin: 0;
+	margin-top: -3px;
+	color: #fff;
+	background-color:#0c8cd3;
+	border-color: #04324c;
+	width: 20%;
+    display: block;
+    clear: both;
+    margin: 10px 0px;
+	border-radius: 12px;
+}
+
+button:hover{
+	color: #0c8cd3;
+	background-color: white;
+}
+
+
+button:active{
+	margin-top:0px;
+	border: 0;
+}
+
+button[disabled=disabled], button:disabled {
+    background-color: gray;
+	border-color: darkgray;
+
+}
+
+.adicionar-paciente{
+    margin-top: 30px;
+}
+
+.campo-invalido{
+	border: 1px solid red;
+}
+
+.grupo__dois{
+	display: flex;
+}
+
+.paciente-invalido{
+	background-color: lightcoral;
+}
+
+.color__red{
+	color: red;
+}
+
+.fade__out{
+	opacity: 0;
+	transition: 0.5s;
+}
+
+#filtrar__tabela{
+	width: 59%;
+	height: 40px;
+	border-radius: 10px;
+	border: 1px solid #555;
+	margin: 1em 1em;
+	padding: 1em;
+}
+.hum{
+	color: white;
+	font-size: 20px;
+}
+.engloba{
+	display: flex;
+	align-items: center;
+}
+
+.invisivel{
+	display:none;
+}
+
+#inicio{
+	display: flex;
+	align-items: center;
+}
+
+ion-icon{
+	font-size: 25px;
+}
+
+
+.th__white{
+	font-weight: bold;
+	background-color: #EEE;
+}
+
+#form-adiciona{
+	display: flex;
+	flex-direction: column;
+}
+
+table{
+	border: 1px solid #555;
+	border-color: #0a070a;
+}
+::-webkit-input-placeholder{
+	color: #04324c;
+	font-family: 'Open Sans', sans-serif;
+}
