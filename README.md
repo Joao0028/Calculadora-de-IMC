@@ -1,4 +1,4 @@
-# Calculadora de IMC - Black
+# Calculadora de IMC -  tema black
 
 Feito no curso da Alura - JavaScript: programando na linguagem da web.
 
